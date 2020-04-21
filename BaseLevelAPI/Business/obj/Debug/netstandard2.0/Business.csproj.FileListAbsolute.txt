@@ -1,0 +1,15 @@
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\bin\Debug\netstandard2.0\Business.deps.json
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\bin\Debug\netstandard2.0\Business.dll
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\bin\Debug\netstandard2.0\Business.pdb
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\bin\Debug\netstandard2.0\Common.dll
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\obj\Debug\netstandard2.0\Business.csprojAssemblyReference.cache
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\obj\Debug\netstandard2.0\Business.AssemblyInfoInputs.cache
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\obj\Debug\netstandard2.0\Business.dll
+C:\Users\Bulutistan-Yazilim\source\repos\BaseLevelAPI\Business\obj\Debug\netstandard2.0\Business.pdb

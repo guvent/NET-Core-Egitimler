@@ -1,0 +1,16 @@
+﻿@model CategoryListViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Categories</h1>
+<hr />
+<div class="list-group">
+    @foreach (var category in Model.Categories)
+    {
+    
+        <a href="/product/?categoryId=@category.CategoryID" class="list-group-item">@category.CategoryName</a>
+    
+    }
+</div>
+

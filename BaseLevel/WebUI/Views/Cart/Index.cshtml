@@ -1,0 +1,45 @@
+﻿@model CartListViewModel;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Cart</h1>
+<hr />
+@if (Model.Cart.CartLines.Count > 0)
+{
+<table class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th>Adet</th>
+            <th>Kategori</th>
+            <th>Ürün Adı</th>
+            <th>Açıklama</th>
+            <th>Fiyat</th>
+            <th>Stok</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cart in Model.Cart.CartLines)
+        {
+            <tr>
+                <td>@cart.Quantity</td>
+                <td>@cart.Product.CategoryID</td>
+                <td>@cart.Product.ProductName</td>
+                <td>@cart.Product.QuantityPerUnit</td>
+                <td>@cart.Product.UnitPrice</td>
+                <td>@cart.Product.UnitsInStock</td>
+                <td>
+                    <a class="btn btn-sm btn-danger" asp-controller="Cart" asp-action="RemoveFromCart" asp-route-productId="@cart.Product.ProductID">Çıkart</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Complete" asp-controller="Cart" class="btn btn-primary">Alışverişi Tamamla</a>
+}
+else
+{
+    <div class="alert alert-warning">Sepetiniz Boş!</div>
+}
+
