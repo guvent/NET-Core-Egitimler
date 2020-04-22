@@ -1,0 +1,29 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-12">
+      <div class="card mb-4">
+        <h3 class="card-header">Yeni Şehir</h3>
+        <div class="card-body">
+
+          <form (ngSubmit)="add()" [formGroup]="cityAddForm" class="form-group">
+            <div class="form-group">
+              <input type="text" name="name" id="name" formControlName="name" class="form-control" placeholder="Şehir">
+              <span class="help-block text-danger" *ngIf="cityAddForm.get('name').hasError('required') && cityAddForm.get('name').touched">
+                Şehir Adı Zorunludur!
+              </span>
+            </div>
+            <div class="form-group">
+              <input type="text" name="description" id="description" formControlName="description" class="form-control" placeholder="Açıklama">
+              <span class="help-block text-danger" *ngIf="cityAddForm.get('description').hasError('required') && cityAddForm.get('description').touched">
+                Açıklama Zorunludur!
+              </span>
+            </div>
+            <button class="btn btn-outline-success" [disabled]="!cityAddForm.valid">Kaydet</button>
+            <h6>{{cityAddForm.value|json}}</h6>
+            <h6>{{cityAddForm.status|json}}</h6>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
